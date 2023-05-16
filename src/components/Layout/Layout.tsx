@@ -1,4 +1,4 @@
-import Outlet from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import ContainerStyled from "../shared/ContainerStyled";
 import HomePage from "../pages/HomePage/HomePage";
 
