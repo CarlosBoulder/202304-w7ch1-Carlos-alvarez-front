@@ -3,6 +3,7 @@ import useApi from "../../hooks/useApi";
 import { useAppDispatch, useAppSelector } from "../../store";
 import { loadRobotsActionCreator } from "../../store/robots/robotsSlice";
 import RobotsList from "../RobotList/RobotsList";
+import LoginForm from "../LoginForm/LoginForm";
 
 const App = (): JSX.Element => {
   const { getRobots } = useApi();
@@ -21,6 +22,7 @@ const App = (): JSX.Element => {
     <div className="container">
       <h1>Bird Robots</h1>
       <RobotsList robots={robotsList} />
+      <LoginForm />
     </div>
   );
 };
