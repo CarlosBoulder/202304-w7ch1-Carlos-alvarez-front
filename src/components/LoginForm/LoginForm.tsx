@@ -32,7 +32,7 @@ const LoginForm = (): JSX.Element => {
           autoComplete="off"
         />
       </label>
-      <input type="submit" value="Submit" />
+      <button type="submit">submit</button>
     </LoginFormStyled>
   );
 };
